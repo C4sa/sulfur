@@ -9,7 +9,7 @@ public class UserExperience {
         // Define time ranges
         LocalTime morningStart = LocalTime.of(6, 0);
         LocalTime afternoonStart = LocalTime.of(12, 0);
-        LocalTime eveningStart = LocalTime.of(12, 0);
+        LocalTime eveningStart = LocalTime.of(18, 0);
 
         // Greet the user based on their current time
         if (currentTime.isAfter(morningStart) && currentTime.isBefore(afternoonStart)) {

@@ -1,12 +1,13 @@
 package sulfur_assets;
 
 public class Messages {
-    public static final String CONSOLE_PROMPT = ".";
+    public static final String CONSOLE_PROMPT = "%s $ ";
 
     // Errors
     public static final String ERROR_PREFIX = "Error: ";
 
     public static final String ERROR_UNKNOWN = "An unknown error occured";
+    public static final String ERROR_INTERNAL = "An internal error occured";
     public static final String ERROR_INVALID_COMMAND = "Invalid command entered (\"%s\")";
     public static final String ERROR_UNFINISHED_COMMAND = "Unfinished command entered (\"%s\")";
 
